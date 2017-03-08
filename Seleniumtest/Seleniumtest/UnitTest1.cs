@@ -77,6 +77,7 @@ namespace Seleniumtest
             driver.Navigate().Refresh();
             driver.Close();
            //asdadsasdasd
+           //asdadasdasdasd
         }
 
         [TestMethod]
