@@ -76,6 +76,7 @@ namespace Seleniumtest
             driver.Navigate().Forward();
             driver.Navigate().Refresh();
             driver.Close();
+           
         }
 
         [TestMethod]
