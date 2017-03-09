@@ -71,7 +71,7 @@ namespace Seleniumtest
         {
             IWebDriver driver = new ChromeDriver(@"C:\");
             driver.Navigate().GoToUrl("http://demoqa.com");
-            driver.FindElement(By.XPath(".//*[@id='menu-item-34']/a")).Click();
+            driver.FindElement(By.XPath(".//*[@id='menu-item-347']/a")).Click();
             driver.Navigate().Back();
             driver.Navigate().Forward();
             driver.Navigate().Refresh();
